@@ -1,0 +1,49 @@
+.inline-block{
+    display: inline-block;
+}
+
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.margin-auto{
+    margin: auto;
+    width: 90px;
+}
+
+.hplogo{
+    width: 100%; 
+    height: 40%;
+}
+
+#navbar-header{
+    /* background-color: red; */
+}
+
+#navbar-header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+p{
+    padding: 5px;
+    position: relative;
+    bottom: 2px;
+}
+
+#search{
+    width: 100%;
+    height:20px;
+}
+.form-container{
+    width: 60%;
+    position: fixed; /* or absolute*/
+    left: 20% ;
+    text-align: -webkit-center;
+}
